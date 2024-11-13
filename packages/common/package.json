@@ -1,0 +1,25 @@
+{
+  "name": "@starsoft/common",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "lint": "yarn lint",
+    "lint:fix": "eslint ./src --ext .js,.jsx,.ts,.tsx --fix",
+    "prebuild": "npx tsc --noEmit",
+    "clean": "rm -rf node_modules && rm -rf .next && rm -rf .turbo"
+  },
+  "dependencies": {
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "18.2.21",
+    "@types/react-dom": "18.2.7",
+    "sass": "^1.70.0",
+    "typescript": "5.5.4"
+  },
+  "description": "Core components",
+  "license": "MIT",
+  "packageManager": "yarn@4.3.1"
+}

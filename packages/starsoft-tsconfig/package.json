@@ -1,0 +1,12 @@
+{
+  "name": "@startsoft/tsconfig",
+  "license": "MIT",
+  "files": [
+    "base.json",
+    "next.json",
+    "react-library.json"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
+}

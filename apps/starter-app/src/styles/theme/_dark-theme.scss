@@ -1,0 +1,20 @@
+$dark-primary-color: #ff4450;
+$dark-secondary-color: #ff5046;
+
+$dark-background-default-color: #171c1f;
+$dark-background-paper-color: #1b2226;
+
+$dark-text-primary-color: #ffffff;
+$dark-text-secondary-color: #98a7b5;
+
+@mixin dark-theme {
+  --primary-color: #{$dark-primary-color};
+
+  --secondary-color: #{$dark-secondary-color};
+
+  --background-default-color: #{$dark-background-default-color};
+  --background-paper-color: #{$dark-background-paper-color};
+
+  --text-primary-color: #{$dark-text-primary-color};
+  --text-secondary-color: #{$dark-text-secondary-color};
+}
