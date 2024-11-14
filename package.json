@@ -19,7 +19,11 @@
     "dev:starter-app": "yarn workspace @starsoft/starter-app dev",
     "build:starter-app": "yarn workspace @starsoft/starter-app build",
     "start:starter-app": "yarn workspace @starsoft/starter-app start",
-    "prebuild:starter-app": "yarn workspace @starsoft/starter-app prebuild"
+    "prebuild:starter-app": "yarn workspace @starsoft/starter-app prebuild",
+    "dev:challenger-sass": "yarn workspace @starsoft/challenger-sass dev",
+    "build:challenger-sass": "yarn workspace @starsoft/challenger-sass build",
+    "start:challenger-sass": "yarn workspace @starsoft/challenger-sass start",
+    "prebuild:challenger-sass": "yarn workspace @starsoft/challenger-sass prebuild"
   },
   "devDependencies": {
     "@startsoft/tsconfig": "workspace:*",
